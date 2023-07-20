@@ -1,0 +1,36 @@
+{
+    "name": "react-scaffold",
+    "version": "1.0.0",
+    "description": "Scaffold to start a web3 project with javascript and React on the frontend",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ferrodri/react-scaffold.git"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "keywords": [],
+    "author": "Fernando Rodriguez Hervias",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ferrodri/react-scaffold/issues"
+    },
+    "homepage": "https://github.com/ferrodri/react-scaffold#readme",
+    "dependencies": {
+        "@chakra-ui/icons": "2.1.0",
+        "@chakra-ui/react": "2.8.0",
+        "@tanstack/react-query": "4.29.25",
+        "formik": "2.4.2",
+        "next": "13.4.10",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "yup": "1.2.0"
+    },
+    "devDependencies": {
+        "eslint": "8.45.0",
+        "eslint-config-next": "13.4.10"
+    }
+}
